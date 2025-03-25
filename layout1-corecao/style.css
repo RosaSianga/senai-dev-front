@@ -1,0 +1,31 @@
+*{
+    padding: 0px; /* zerando a distancia */
+    margin: 0px; /* zerando a margem */
+    box-sizing: border-box; /* define o formato de espaçamento */
+}
+
+.cabecalho{
+
+    width: 100vw; /* 100% da horizontal */
+    height: 71px;
+    background-color: #3750b3;
+    display: flex; /* coloca um texto ao lado do outro */
+    justify-content: space-between; /* coloca os elementos nos cantos */
+    align-items: center;
+}
+
+.cabecalho p { /* usado para aplicar apenas para os P do cabecalho */
+
+    color: white;
+    margin-right: 10px; /* coloca uma margem a direita */
+    
+}
+
+.right {
+    display: flex;
+    margin-right: 60px;
+}
+
+.left{
+    margin-left: 80px; /* coloca uma margem a esquerda */
+}

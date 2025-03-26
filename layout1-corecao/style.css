@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     padding: 0px; /* zerando a distancia */
     margin: 0px; /* zerando a margem */
     box-sizing: border-box; /* define o formato de espaçamento */
+    font-family: inter;
 }
 
 .cabecalho{
@@ -23,9 +26,43 @@
 
 .right {
     display: flex;
-    margin-right: 60px;
+    margin-right: 10vw;
 }
 
 .left{
-    margin-left: 80px; /* coloca uma margem a esquerda */
+    margin-left: 10vw; /* coloca uma margem a esquerda */
 }
+
+.caixa-da-image{
+    width: 100vw;
+
+    display: flex;
+    justify-content: center; /* alinhamento na horizontal */
+    /* align-items: center; -- alinhamento na vertical */
+    margin-top: 100px;
+
+}
+
+.caixa-da-image img {
+
+    width: 80vw;
+}
+
+.textos {
+
+    margin-left: 10vw;
+    margin-top: 100px;
+
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: normal;
+}
+
+.textos p {
+    font-size: 32px;
+    max-width: 80vw;
+    text-align: justify;
+}
+
